@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="header"></div>
+    <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+    <label for="openSidebarMenu" class="sidebarIconToggle">
+        <div class="spinner diagonal part-1"></div>
+        <div class="spinner horizontal"></div>
+        <div class="spinner diagonal part-2"></div>
+    </label>
+    <div id="sidebarMenu">
+        <ul class="sidebarMenuInner">
+            <li>Ashwanth R<span>a student</span></li>
+            <li><a href="home.html" class="fa fa-home" target="iframe_a"> Home</a></li>
+            <li><a href="about.html" class="fa fa-id-card-o" target="iframe_a"> About</a></li>
+            <li><a href="gallery.html" class="fa fa-photo" target="iframe_a"> Gallery</a></li>
+            <li><a href="email.html" class="fa fa-envelope" target="iframe_a"> Email</a></li>
+        </ul>
+    </div>
+    <div id="frame-div">
+        <iframe class="i_frame" src="home.html" name="iframe_a" title="content of sidebarmenu"></iframe>
+    </div>
+</body>
+</html>
